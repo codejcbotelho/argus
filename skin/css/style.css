@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+@font-face{
+	font-family: "New Cicle",
+	font-weight: none;
+	font-style: none;
+	src: url('../font/New-Cicle-Fina.ttf'), local('../font/New-Cicle-Fina.ttf');
+}
+
+*{margin: 0px auto;}
+body{background: #FFF url(../image/wallpaper.jpg) fixed no-repeat; background-size: 120%; font: 10pt Arial, Helvetica, sans-serif; color: #333;}
+input, select, textarea{resize: none; outline: none; font: 12pt Arial, Helvetica, sans-serif;}
+
+/* inputs */
+input.box-text, select.box-text{width: 250px; padding: 10px; background: #FFF; border: 1px solid #CCC; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; -webkit-box-shadow: 0px 1px 5px #DEDEDE; -moz-box-shadow: 0px 1px 5px #DEDEDE; -ms-box-shadow: 0px 1px 5px #DEDEDE; -o-box-shadow: 0px 1px 5px #DEDEDE; box-shadow: 0px 1px 5px #DEDEDE;}
+textarea.box-text{width: 450px; height: 100px; padding: 10px; background: #FFF; border: 1px solid #CCC; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; -webkit-box-shadow: 0px 1px 0px #DEDEDE;}
+input.button{padding: 10px 25px 10px 25px; cursor: pointer; color: #666; background: url(../image/background-button.png) center bottom repeat-x; border: 1px solid #CCC; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; -webkit-box-shadow: 0px 1px 5px #DEDEDE; -moz-box-shadow: 0px 1px 5px #DEDEDE; -ms-box-shadow: 0px 1px 5px #DEDEDE; -o-box-shadow: 0px 1px 5px #DEDEDE; box-shadow: 0px 1px 5px #DEDEDE;}
+
+/*-- header --*/
+
+.delimiter-header{width: 100%; background: #FFF;}
+.delimiter-header .header{width: 980px; height: 150px; border-bottom: 5px solid #0080AA; text-align: center; padding-bottom: 5px;}
+.delimiter-header .header .link-logo img{margin-top: 10px; border: 0px;}
+
+/*-- content --*/
+
+.delimiter-content{width: 100%; padding: 25px 0px 25px 0px;}
+.delimiter-content .content{width: 980px;}
+.delimiter-content .content .title-section{width: 930px; background: url(../image/icon-title.png) 0px center no-repeat; padding-left: 50px; margin-bottom: 25px; font: 15pt "New Cicle", Arial, Helvetica, sans-serif; text-shadow: 0px 1px 0px #FFF; text-transform: uppercase; color: #0080AA;}
+
+/* carousel */
+.delimiter-content .content .list_carousel{width: 100%;}
+.delimiter-content .content .list_carousel ul{width: 100%; padding: 0px;}
+.delimiter-content .content .list_carousel ul li{width: 100%; height: 700px; list-style: none;}
+.delimiter-content .content .list_carousel ul li .banner-site{width: 950px; margin-left: 5px; border: 10px solid #FFFFFF; height: auto; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: 0px 0px 15px #CCCCCC; margin-bottom: 20px;}
+.delimiter-content .content .list_carousel ul li .information .title{font: 25pt "New Cicle", Arial, Helvetica, sans-serif; text-shadow: 0px 1px 0px #FFF; color: #0080AA; margin-bottom: 5px;}
+.delimiter-content .content .list_carousel ul li .information .description{color: #333333; margin-bottom: 10px; display: none;}
+.delimiter-content .content .list_carousel ul li .information .author{color: #666666; font-size: 8pt;}
+.delimiter-content .content .list_carousel ul li .information .author a, 
+.delimiter-content .content .list_carousel ul li .information .author a:link{color: #666666; text-decoration: underline;}
+
+/* contact */
+.delimiter-contact{width: 100%; background: #FFF;}
+.delimiter-contact .contact{width: 980px; border-top: 5px solid #0080AA; height: 500px; padding-top: 25px;}
+.delimiter-contact .contact .title-section{width: 930px; background: url(../image/icon-title.png) 0px center no-repeat; padding-left: 50px;font: 15pt "New Cicle", Arial, Helvetica, sans-serif; color: #0080AA; text-transform: uppercase; margin-bottom: 25px;}
+.delimiter-contact .contact .form-send{width: 100%;}
+.delimiter-contact .contact .form-send .block{width: 100%; margin-bottom: 15px; display: table;}
+.delimiter-contact .contact .form-send .block .label{display: table; float: left; text-align: right; width: 150px; color: #999; margin-right: 10px; margin-top: 8px; font-size: 9pt;}
